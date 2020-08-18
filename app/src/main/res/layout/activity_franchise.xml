@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Franchise">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="5dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="Join Us As Franchise"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="8dp"
+        android:outlineAmbientShadowColor="@color/black"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="#EEEEFF"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1.25"
+                android:fontFamily="@font/autour_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="We Are Comitted To Our Success."
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.75"
+                android:padding="15dp"
+                android:src="@drawable/market" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="3dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:hint="Name"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/black"
+        android:layout_marginVertical="3dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawableLeft="@drawable/ic_baseline_call_24"
+            android:hint="Mobile No"
+        android:padding="5dp"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="3dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawableLeft="@drawable/ic_baseline_home_24"
+        android:hint="Business Type"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="3dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawableLeft="@drawable/ic_baseline_library_books_24"
+        android:hint="Address"
+        android:padding="2dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="3dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Business Details in 50-100 words"
+        android:padding="5dp"
+        android:gravity="start"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/autour_one"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+
+        />
+
+
+</LinearLayout>

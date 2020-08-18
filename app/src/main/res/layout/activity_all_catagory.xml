@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AllCatagory">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="5dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="All Catagories"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="10dp"
+        app:cardBackgroundColor="#BCA6A6"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="1dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:background="#BCA6A6"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/vegetable"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Vegetable"
+                        android:textColor="#000"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/autour_one"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="1dp"
+                    android:background="@color/white"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/grocery"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Grocery"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/autour_one"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/med"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Medicine"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/autour_one"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ruler"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stationary"
+                        android:layout_gravity="center"
+                        android:textSize="13sp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/autour_one"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:background="#BCA6A6"
+                android:layout_marginVertical="1dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/fried_chicken"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Non Veg"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/autour_one"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/product"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Health"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/autour_one"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/cosmetics"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cosmetics"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/autour_one"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/gift"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gifts"
+                        android:fontFamily="@font/autour_one"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:layout_marginVertical="1dp"
+                android:background="#BCA6A6"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/electronics"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Electronics"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/autour_one"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/fashion"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fashion"
+                        android:fontFamily="@font/autour_one"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_marginHorizontal="1dp"
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/flowers"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Flower"
+                        android:fontFamily="@font/autour_one"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:background="@color/white"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/cake"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bakery"
+                        android:fontFamily="@font/autour_one"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:layout_marginVertical="0.5dp"
+                android:background="#BCA6A6"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/dairy"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dairy"
+                        android:fontFamily="@font/autour_one"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:background="@color/white"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/fruit"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fruits"
+                        android:fontFamily="@font/autour_one"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/shoe"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Shoes"
+                        android:fontFamily="@font/autour_one"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/dog"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pet Food"
+                        android:fontFamily="@font/autour_one"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

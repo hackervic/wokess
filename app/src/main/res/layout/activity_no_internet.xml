@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background"
+    android:orientation="vertical"
+    tools:context=".NoInternet">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/wakes" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Opps !"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:lottie_rawRes="@raw/nointernet"
+        app:lottie_autoPlay="true"
+        app:lottie_repeatCount="5"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Your Are Not Conneted To Internet Try Again"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:fontFamily="@font/autour_one"
+        android:layout_marginHorizontal="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_cornor"
+        android:fontFamily="@font/autour_one"
+        android:text="retry"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+
+        />
+
+
+
+</LinearLayout>
